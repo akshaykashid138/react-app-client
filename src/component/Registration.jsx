@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import {BrowserRouter, Link,Route} from 'react-router-dom'
-import {Redirect} from 'react-router-dom'
+import { Link} from 'react-router-dom'
+// import {Redirect} from 'react-router-dom'
 
 
 export class Registration extends Component {
