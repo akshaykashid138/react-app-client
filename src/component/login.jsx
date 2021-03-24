@@ -30,7 +30,7 @@ export class Login extends Component {
             if(res.data.success) {
                  
                 this.setState({email:"", password:""})
-                this.props.history.push("/homeScreen")
+                this.props.history.push("https://pedantic-allen-916df9.netlify.app/homeScreen")
             }
             else{
                 alert(res.data.message)
