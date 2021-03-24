@@ -9,9 +9,9 @@ function App() {
   return (
     <>
     <Navbar />
-    <Route path="https://pedantic-allen-916df9.netlify.app/register" component={Registration} />
-    <Route path="https://pedantic-allen-916df9.netlify.app/login" component={Login} />
-    <Route path='https://pedantic-allen-916df9.netlify.app/homeScreen' component={HomeScreen} />
+    <Route path="/register" component={Registration} />
+    <Route path="" component={Login} />
+    <Route path='/homeScreen' component={HomeScreen} />
     </>
   );
 }
