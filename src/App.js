@@ -9,9 +9,9 @@ function App() {
   return (
     <>
     <Navbar />
-    <Route path="https://605b5daab037b1777f9ff21d--pedantic-allen-916df9.netlify.app//register" component={Registration} />
-    <Route path="https://605b5daab037b1777f9ff21d--pedantic-allen-916df9.netlify.app//login" component={Login} />
-    <Route path='https://605b5daab037b1777f9ff21d--pedantic-allen-916df9.netlify.app//homeScreen' component={HomeScreen} />
+    <Route path="https://pedantic-allen-916df9.netlify.app/register" component={Registration} />
+    <Route path="https://pedantic-allen-916df9.netlify.app/login" component={Login} />
+    <Route path='https://pedantic-allen-916df9.netlify.app/homeScreen' component={HomeScreen} />
     </>
   );
 }
