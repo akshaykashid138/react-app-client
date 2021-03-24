@@ -10,7 +10,7 @@ function App() {
     <>
     <Navbar />
     <Route path="/register" component={Registration} />
-    <Route path="" component={Login} />
+    <Route path="/login" component={Login} />
     <Route path='/homeScreen' component={HomeScreen} />
     </>
   );
