@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy":"https://pedantic-allen-916df9.netlify.app/",
+ 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
