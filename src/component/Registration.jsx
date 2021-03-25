@@ -51,7 +51,7 @@ export class Registration extends Component {
                 <div class="signup-form">
     <form >
 		<h2>Register</h2>
-		<p class="hint-text">Create your account. It's free and only takes a minute.</p>
+		{/*<p class="hint-text">Create your account. It's free and only takes a minute.</p> */}
                 
         <div class="form-group">
         	<input type="email" class="form-control" name="email" placeholder="Email" required="required" onChange={this.handleInputChange} autocomplete="off"/>
