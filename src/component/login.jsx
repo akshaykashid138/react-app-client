@@ -25,7 +25,7 @@ export class Login extends Component {
            email:email,
            password:password
         }
-        axios.post("users/login",data).then((res)=>{
+        axios.post("https://fullstack-mernstackapp.herokuapp.com/users/login",data).then((res)=>{
             console.log(res)
             if(res.data.success) {
                  

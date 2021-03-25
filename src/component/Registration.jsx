@@ -29,7 +29,7 @@ export class Registration extends Component {
                email:email,
                password:password
             }
-            axios.post("users/registration",data).then((res)=>{
+            axios.post("https://fullstack-mernstackapp.herokuapp.com/users/registration",data).then((res)=>{
                 console.log(res)
                 if(res.data.success) {
                     alert("register success")
