@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     {/* <Navbar /> */}
-    <Route path="/" component={Registration} />
+    <Route exact path="/"  component={Registration} />
     <Route path="/login" component={Login} />
     <Route path='/homeScreen' component={HomeScreen} />
     </>
